@@ -13,7 +13,7 @@ Simple JSONL-based key-value store. Uses an append-only file to store the data. 
 Load the module:
 
 ```ts
-import { DB } from "@alcalzone/jsonl-db";
+import { JsonlDB as DB } from '@alcalzone/jsonl-db';
 ```
 
 Open or create a database file and use it like a  [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
